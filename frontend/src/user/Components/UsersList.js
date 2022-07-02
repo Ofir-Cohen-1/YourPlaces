@@ -19,8 +19,10 @@ const UsersList = (props) => {
             key={user.id}
             id={user.id}
             image={user.image}
-            name={user.name}
-            placeCount={user.places}
+            name={user.songsList[0].songName}
+            artist={user.songsList[0].songArtist}
+            like={user.songsList[0].like}
+            dislike={user.songsList[0].dislike}
           />
         ))}
       </ul>

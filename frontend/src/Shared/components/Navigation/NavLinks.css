@@ -30,7 +30,7 @@
   }
   
   .nav-links button {
-    cursor: pointer;
+    /* cursor: pointer; */
     border: 1px solid #292929;
     color: #292929;
     background: transparent;
@@ -60,6 +60,7 @@
     .nav-links a {
       color: white;
       text-decoration: none;
+      cursor: none;
     }
   
     .nav-links button {

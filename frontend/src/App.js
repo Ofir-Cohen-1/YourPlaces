@@ -18,6 +18,7 @@ function App() {
       <Switch>
         <Route path="/" exact>
           <Users />
+          <Users />
         </Route>
         <Route path="/places/new" exact>
           <NewPlace />
